@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class TaxCalculator {
+    public static void main(String[] args) {
+        try (Scanner scanner = new Scanner(System.in)) {
+            System.out.print("Enter your income: ");
+            double income = scanner.nextDouble();
+            double tax;
+            
+            if (income <= 500000) {
+                tax = 0;
+            }
+            else if (income > 500000 && income <= 1000000) {
+                tax = income * 0.3;
+            }
+            else {
+                tax = income * 0.4;
+            }
+            
+            System.out.println("Your tax is: " + tax);
+        }
+    }
+}

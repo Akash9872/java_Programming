@@ -1,0 +1,70 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "BubbleSort",
+            "request": "launch",
+            "mainClass": "Sorting.BubbleSort",
+            "projectName": "java_Programming_1857a1f2"
+        },
+        {
+            "type": "java",
+            "name": "productofArray",
+            "request": "launch",
+            "mainClass": "productofArray",
+            "projectName": "java_Programming_1857a1f2"
+        },
+        {
+            "type": "java",
+            "name": "reverse",
+            "request": "launch",
+            "mainClass": "reverse",
+            "projectName": "java_Programming_1857a1f2"
+        },
+        {
+            "type": "java",
+            "name": "ReverseArray",
+            "request": "launch",
+            "mainClass": "ReverseArray",
+            "projectName": "java_Programming_1857a1f2"
+        },
+        {
+            "type": "java",
+            "name": "SecondMax",
+            "request": "launch",
+            "mainClass": "SecondMax",
+            "projectName": "java_Programming_1857a1f2"
+        },
+        {
+            "type": "java",
+            "name": "forEach",
+            "request": "launch",
+            "mainClass": "forEach",
+            "projectName": "java_Programming_1857a1f2"
+        },
+        {
+            "type": "java",
+            "name": "argument",
+            "request": "launch",
+            "mainClass": "argument",
+            "projectName": "java_Programming_1857a1f2"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearch",
+            "request": "launch",
+            "mainClass": "BinarySearch",
+            "projectName": "java_Programming_1857a1f2"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}
