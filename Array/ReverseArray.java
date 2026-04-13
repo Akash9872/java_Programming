@@ -3,13 +3,13 @@ public class ReverseArray {
         int[] arr = {34,4,54,65,66,45,334};
         int n = arr.length;
         int i = 0;
-        int j = n-1;
-        while(i<j) {
+        int m = n-1;
+        while(i<m) {
             int temp = arr[i];
-            arr[i] = arr[j];
-            arr[j] = temp;
+            arr[i] = arr[m];
+            arr[m] = temp;
             i++;
-            j--;
+            m--;
         }
         for(int ele : arr) {
             System.out.print(ele + " ");
