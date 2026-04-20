@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "InsertionSort",
+            "request": "launch",
+            "mainClass": "Sorting.InsertionSort",
+            "projectName": "java_Programming_1857a1f2"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "java_Programming_1857a1f2"
+        },
+        {
+            "type": "java",
+            "name": "lengthOfLastWord",
+            "request": "launch",
+            "mainClass": "Sorting.lengthOfLastWord",
+            "projectName": "java_Programming_1857a1f2"
+        },
+        {
+            "type": "java",
             "name": "SelectionSort",
             "request": "launch",
             "mainClass": "Sorting.SelectionSort",
